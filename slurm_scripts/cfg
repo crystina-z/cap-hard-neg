@@ -1,0 +1,4 @@
+BATCH -p gpu20
+#SBATCH --cpus-per-task=8
+#SBATCH --gres gpu:0
+#SBATCH --time 48:00:00
